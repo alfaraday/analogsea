@@ -1,0 +1,73 @@
+* {
+	background-color: #00B2EE;
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+	height: 35px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+}
+
+form, legend, input, label, .forgot {
+	background-color: #FAFAFA;
+}
+
+form {
+	width: 400px;
+	padding: 40px 20px 40px 20px;
+	margin-top: 40px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 3px;
+}
+
+legend {
+	text-align: center;
+	font-weight: lighter;
+	font-size: 35px;
+	padding: 0;
+	margin: 0;
+}
+
+label, input, button, .forgot {
+	display: block;
+}
+
+label, input, button {
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+input, button {
+	width: 300px;
+	border: 2px solid #DBDBDB;
+	border-radius: 3px;
+	padding: 15px;
+}
+
+input, label {
+	font-size: 15px;
+}
+
+button {
+	background-color: #00CD66;
+	color: #FAFAFA;
+	font-size: 20px;
+}
+
+.forgot {
+	text-align: center;
+	font-size: 12px;
+	color: #C4C4C4;
+	margin-top: 5px;
+}
+
+.log-in {
+	font-size: 12px;
+	color: #FAFAFA;
+	text-align: center;
+}
