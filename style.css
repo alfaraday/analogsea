@@ -3,50 +3,53 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-.logo {
-	height: 35px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 40px;
+body {
+	padding-top: 15px;
 }
 
-form, legend, input, label, .forgot {
+.logo {
+	display: block;
+    height: 35px;
+    width: auto;
+    margin: 0 auto 30px;
+}
+
+form, h1, input, label, .forgot {
 	background-color: #FAFAFA;
 }
 
 form {
 	width: 400px;
-	padding: 40px 20px 40px 20px;
-	margin-top: 40px;
-	display: block;
+	padding: 40px;
+	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
 	border-radius: 3px;
+	box-sizing: border-box;
 }
 
-legend {
+h1 {
 	text-align: center;
 	font-weight: lighter;
 	font-size: 35px;
 	padding: 0;
-	margin: 0;
+	margin: 0 0 40px 0;
 }
 
 label, input, button, .forgot {
 	display: block;
 }
 
-label, input, button {
-	margin-top: 15px;
-	margin-left: 15px;
+input, button {
+	margin: 20px 0;
 }
 
 input, button {
-	width: 300px;
+	width: 320px;
 	border: 2px solid #DBDBDB;
 	border-radius: 3px;
 	padding: 15px;
+	box-sizing: border-box;
 }
 
 input, label {
@@ -57,6 +60,7 @@ button {
 	background-color: #00CD66;
 	color: #FAFAFA;
 	font-size: 20px;
+	border: 2px solid #00CD66;
 }
 
 .forgot {
